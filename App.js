@@ -186,11 +186,4 @@ const styles = StyleSheet.create({
 
 
 
-
-
-
-
-
-
-
 }
