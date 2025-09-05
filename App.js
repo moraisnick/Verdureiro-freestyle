@@ -19,7 +19,7 @@ const [pagina, setPagina] = useState('home')
   );
 }
 
-//comentario aleatorio
+//comentarioaleatorio
 function Header ({ pagina, setPagina}){
   return(
     <View style={styles.header}>
