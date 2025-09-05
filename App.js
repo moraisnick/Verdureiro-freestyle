@@ -18,6 +18,8 @@ const [pagina, setPagina] = useState('home')
     </SafeAreaView> 
   );
 }
+
+//comentario aleatorio
 function Header ({ pagina, setPagina}){
   return(
     <View style={styles.header}>
@@ -55,7 +57,7 @@ function Sobre () {
   );
 }
 
-function Serviços () {
+function Servicos() {
   return (
     <View style={styles. section}>
       <Text style={styles.title}>Nossos serviços</Text>
@@ -66,7 +68,7 @@ function Serviços () {
   );
 }
 
-function Contato () {
+function Contato() {
   const [nome, setNome] = React.useState('');
   const [email, setEmail] = React.useState('');
   const [ mensagem, setMensagem] = React.useState('');
@@ -113,7 +115,7 @@ return (
   );
 }
 
-funtion Footer() {
+function Footer() {
     return (
         <View style={styles.footer}>
             <Text style={{ color: 'White'}}>2025 Minha Empresa. Todos os direitos reservados.</Text>
@@ -151,7 +153,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#0066cc'
     },
     navButtonText: {
-        color 'white',
+        color 'white' ,
         fontWeight: 'bold'
     },
     content: { padding: 20, flexGrow: 1 },
@@ -181,7 +183,6 @@ const styles = StyleSheet.create({
   buttonText: { color: 'white', fontWeight: 'bold', fontSize: 16},
   footer: { backgroundColor: '#00264d', padding: 15, alignItems: 'center'},
 })
-
 
 
 
